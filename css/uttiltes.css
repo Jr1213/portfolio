@@ -1,0 +1,84 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.line {
+  width: 25%;
+  height: 3px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn {
+  text-decoration: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 12px 45px;
+  margin: 0 auto;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-transition: all ease-in-out 250ms;
+  transition: all ease-in-out 250ms;
+}
+
+.btn--outline--main {
+  color: #E7F2FF;
+  border: 1px solid #E7F2FF;
+}
+
+.btn--black {
+  color: #E7F2FF;
+  background-color: #272525;
+  -webkit-transition: all ease-in-out 250ms;
+  transition: all ease-in-out 250ms;
+  border: 1px solid #272525;
+}
+
+.btn--outline--black {
+  -webkit-transition: all ease-in-out 250ms;
+  transition: all ease-in-out 250ms;
+  color: #272525;
+  background-color: #E7F2FF;
+  border: 2px solid #272525;
+}
+
+.btn--outline--main:hover {
+  background-color: #E7F2FF;
+  color: #272525;
+}
+
+.btn--black:hover {
+  background-color: #E7F2FF;
+  border: 1px solid #272525;
+  color: #272525;
+}
+
+.btn--outline--black:hover {
+  background-color: #272525;
+  color: #E7F2FF;
+}
+
+@media (max-width: 900px) {
+  .btn {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=uttiltes.css.map */

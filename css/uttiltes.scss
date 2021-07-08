@@ -1,0 +1,83 @@
+@import '../css/color.scss';
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.line {
+    width: 25%;
+    height: 3px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    text-decoration: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 12px 45px;
+    margin: 0 auto;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: all ease-in-out 250ms;
+}
+
+.btn--outline--main {
+    color: $text;
+    border: 1px solid $text;
+}
+
+.btn--black {
+    color: $text;
+    background-color: $black;
+    transition: all ease-in-out 250ms;
+    border: 1px solid $black;
+
+}
+
+.btn--outline--black {
+    transition: all ease-in-out 250ms;
+    color: $black;
+    background-color: $text;
+    border: 2px solid $black;
+
+}
+
+.btn--outline--main:hover {
+    background-color: $text;
+    color: $black;
+}
+
+.btn--black:hover {
+    background-color: $text;
+    border: 1px solid $black;
+    color: $black;
+}
+
+.btn--outline--black:hover {
+    background-color: $black;
+    color: $text;
+}
+
+@media(max-width: 900px) {
+    .btn {
+        font-size: 3rem;
+    }
+}
+
+@media(max-width:400px){
+    .container{
+        width: 90%;
+    }
+}
